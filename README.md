@@ -4,7 +4,7 @@
 
 Ok, the other day I needed to send a daily mail with an ESP (8266 && 32). So I went out to search for a lib.
 
-Turns out, there are some. One had lots of buffer allocations that were never freed. One sends headers that are wrongly terminated (or, at least, my server thinks that they are). One is bloated to hell and developers response to an issue was talking down to me about what I had to do and what not. ╭∩╮
+Turns out, there are some. One has lots of buffer allocations that were never freed. One sends headers that are wrongly terminated (or, at least, my server thinks that they are). One is bloated to hell and developers response to an issue was talking down to me about what I had to do and what not.
 
 ## ][ 
 
@@ -54,4 +54,4 @@ plain no auth:<br>
 
 # technical documentation used
 
-RFC 5322 (was RFC 2822 (was RFC 822))
+RFC 6854 (was RFC 5322 (was RFC 2822 (was RFC 822 (was RFC 733))))
